@@ -6,9 +6,16 @@
 
     </head>    
 
+    <style>
+    
+        #groet{
+            font-family: cursive;
+        }
+    
+    </style>
 
 <body>
-    
+    <p id="groet">Hallo, wat is jouw naam?</p>
     
   <form method="post">
     
@@ -22,7 +29,7 @@
   <?php
         if(isset($_POST['naam']))
         {
-            echo "Hallo, " . $_POST['naam'];
+            echo "<br>Hallo, " . $_POST['naam'];
         }
 
  ?>  
