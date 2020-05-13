@@ -2,7 +2,7 @@
 
 
 
-echo str_replace("gebruiker","computer","Hallo gebruiker!");
+echo str_replace("gebruiker", "computer", "Hallo gebruiker!");
 
 
 
